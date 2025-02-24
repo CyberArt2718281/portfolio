@@ -5,7 +5,7 @@ const Header: React.FC = () => {
         <header>
             <h1>Портфолио</h1>
             <nav>
-                <a href="#top">Обо мне</a>
+                <a href="#top">Инфа</a>
                 <a href="#projects">Проекты</a>
                 <a href="#skills">Навыки</a>
             </nav>
