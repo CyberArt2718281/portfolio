@@ -38,7 +38,7 @@ const projects: Project[] = [
         id: 4,
         title: 'Sushi site',
         image: sushi,
-        link: 'https://cyberart2718281.github.io/pizza-site/',
+        link: 'https://cyberart2718281.github.io/super-sushi/',
     },
 ];
 
