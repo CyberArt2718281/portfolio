@@ -30,13 +30,14 @@ const SkillsCarousel: React.FC = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 5000,
+        speed: 500,
         autoplay: true,
-        autoplaySpeed: 0,
+        autoplaySpeed: 2000,
         cssEase: 'linear',
         arrows: false,
         pauseOnHover: false,
         slidesToShow: 4,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 768,
