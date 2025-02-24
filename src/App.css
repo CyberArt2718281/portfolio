@@ -43,10 +43,22 @@ header nav a {
   color: #fff;
   font-weight: 600;
   transition: color 0.3s ease;
+  position: relative;
 }
 
-header nav a:hover {
-  color: #ff4444;
+header nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #ff4444;
+  transition: width 0.3s ease;
+}
+
+header nav a:hover::after {
+  width: 100%;
 }
 
 main {
@@ -241,7 +253,7 @@ footer p {
 
 .slick-prev::before,
 .slick-next::before {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', serif;
   font-size: 20px;
   color: #fff;
   opacity: 1;
